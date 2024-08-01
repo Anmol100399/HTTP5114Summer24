@@ -1,0 +1,715 @@
+*{ 
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  }
+.desktop .heading {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  padding: 20px 20px 60px 20px;
+  font-size: 65px;
+  color: #fff;
+}
+.desktop .heading span{
+  color: #A10010;
+}
+.main-heading {
+  position: absolute;
+  padding: 240px 350px 0 0;
+  font-family:"Playfair Display", serif;;
+  font-weight: 400;
+  width: 42%;
+  color: #fff;
+  font-size: 50px;
+}
+.main-heading span{
+  font-size: 65px;
+  color: #A10010;
+}
+.description {
+  color: #fff;
+  position: absolute;
+  text-align: center;
+  padding: 420px 350px 0 0;
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+  font-weight: 600;
+  width: 47%;
+}
+.button-container {
+  display: flex;
+  position: absolute;
+  margin-top: 600px;
+  width: 70%;
+  gap: 20px;
+}
+.button1, .button2 {
+  border: none;
+  color: white;
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
+  cursor: pointer;
+  width: 200px;
+  height: 70px;
+  margin: 20px;
+  background-color: #A10010;
+  border-radius: 35px;
+}
+.desktop .button {
+  overflow-wrap: break-word;
+  font-weight: 400;
+  font-size: 15px;
+  color: #fff;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  background: #000000;
+  position: relative;
+  display: flex;
+  align-self: flex-start;
+  padding: 11px 11.6px 11px 10px;
+  box-sizing: border-box;
+  margin: 20px 0;
+}
+.desktop .name {
+  margin: 13px 16.4px 8px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: #000000;
+}
+.desktop .my-pic {
+  border-radius: 10px;
+  background: url('images/my_pic.jpeg') 50% / cover no-repeat;
+  margin: 0 0 258px 715px;
+  width: 231px;
+  height: 500px;
+}
+.desktop .message {
+  margin-bottom: 18px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: #000000;
+}
+.desktop .designing-pic {
+  background: url('images/Website\ Designing.jpg') 50% / contain no-repeat;
+  margin: 0 0 34px 0.4px;
+  padding-bottom: 15px;
+  width: 256.4px;
+  height: 150px;
+}
+.desktop .web-development {
+  background: url('images/web\ development.png') 50% / cover no-repeat;
+  margin-bottom: 53.4px;
+  width: 250px;
+  height: 144.6px;
+}
+.desktop .programming-pic{
+  background: url('images/card.jpg') 50% / cover no-repeat;
+  margin-bottom: 35px;
+  width: 250px;
+  height: 165.04px;
+}
+.desktop .web-development-1, .designing, .programming {
+  padding: 20px 0;;
+}
+.desktop .designing-p, .programming-p, .web-development-p {
+  text-align: center;
+}
+.desktop {
+  background: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+  width: 100%; 
+  box-sizing: border-box;
+}
+.desktop .html-pic {
+  background: url('images/html.png') 50% / cover no-repeat;
+  margin-bottom: 14px;
+  width: 250px;
+  height: 250px;
+}
+.desktop .css-pic {
+  background: url('images/css.png') 50% / cover no-repeat;
+  margin-bottom: 14px;
+  width: 250px;
+  height: 250px;
+}
+.desktop .js-pic {
+  background: url('images/javascript.png') 50% / cover no-repeat;
+  margin-bottom: 14px;
+  width: 250px;
+  height: 250px;
+}
+.desktop .programming {
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+}
+.programming-p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.333;
+  color: #fff;
+}
+.desktop .web-development-text {
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+}
+.web-development-p{
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: #fff;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.333;
+}
+.designing-p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.333;
+  color: #A10010;
+}
+.designing-sub17 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.333;
+  color: #A10010;
+}
+.desktop .designing {
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #A10010;
+}
+.desktop .html {
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #A10010;
+}
+.html {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.333;
+  color: #A10010;
+  text-align: center;
+}
+.html-p{
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;;
+  color: #A10010;
+  text-align: center;
+}
+.desktop .javascript {
+  margin: 0 7.9px 0 8.9px;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #A10010;
+}
+.javascript {
+  font-family: "Roboto", sans-serif;
+
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.333;
+  color: #A10010;
+}
+.javascript-sub-0 {
+  font-family: "Playfair Display", serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.333;
+  color: #A10010;
+}
+.javascript-p{
+  font-family: "Roboto", sans-serif;
+  color: #A10010;
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.333;
+}
+.css {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.333;
+}
+.css-p {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.333;
+}
+.desktop .css {
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+}
+.desktop .containers {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.desktop .nav-bar { /*Menu Bar*/
+  margin: 32px 0 7px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 524px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.desktop .container {
+  background: #A10010;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 19.7px 9px 19.7px;
+  box-sizing: border-box;
+}
+.desktop .container-1 {
+  border-radius: 20px;
+  background: #FFFFFF;
+  position: relative;
+  display: flex;
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+  box-sizing: border-box;
+}
+.desktop .container-2 {
+  border-radius: 20px;
+  background: #fff;
+  position: relative;
+  display: flex;
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+  box-sizing: border-box;
+}
+.desktop .copy-right {
+  overflow-wrap: break-word;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #fff;
+}
+.desktop .container-3 {
+  background: #fff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 9px 21px 8px;
+  box-sizing: border-box;
+}
+.desktop .container-name {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.desktop .logo-av {
+  margin: 0 20px 10px 0;
+  width: 98.3px;
+  height: 59.2px;
+}
+.desktop a{
+  font-size: 25px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.desktop .company-name {
+  margin-top: 10px;
+  white-space: nowrap;
+  text-transform: uppercase;
+  display: inline-block;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 50px;
+  color: #FFFFFF;
+}
+.desktop .container-8 {
+  background: #A10010;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 34px 12.8px 15px 12.8px;
+  box-sizing: border-box;
+
+}
+.desktop .container-9 {
+  background: #fff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 29.6px 21px 29.6px;
+  box-sizing: border-box;
+}
+.contact-us input[placeholder] {
+  overflow-wrap: break-word;
+  font-weight: 400;
+  font-size: 25px;
+  border-radius: 10px;
+  width: 300px;
+  height: 50px;
+  color: #000000;
+  padding: 0 10px 0 10px;
+}
+.contact-us .form-row {
+  padding: 0px 0px 50px 18px;
+  display: flex;
+  gap: 150px;
+}
+.contact-us .form-row-1 {
+  padding: 0px 0px 15px 0;
+  display: flex;
+  gap: 50px;
+}
+.contact-us{
+  background: #A10010;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 128px;
+  border-radius: 20px;
+  margin: 0 30px 40px;
+  box-sizing: border-box;
+}
+.contact-us label{
+  font-size: 25px;
+  padding-right: 20px;
+  font-family: "Roboto", sans-serif;
+}
+.contact-us input[id=message] {
+  width: 1027px;
+  height: 135px;
+  font-size: 25px;
+  border-radius: 10px;
+}
+.desktop .container-12 {
+  background: #A10010;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 34px 13.9px 15px 13.9px;
+  box-sizing: border-box;
+}
+.desktop .container-14 {
+  background: #FFFFFF;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 34px 14.2px 18px 14.2px;
+  box-sizing: border-box;
+}
+.desktop .container-20 {
+  margin: 0 50px 240px 50px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 108px;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+.desktop .container-23 {
+  margin: 0 50px 240px 50px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 108px;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+.desktop .container-25 {
+  box-shadow: 0px 5px 4px 0px rgba(0, 0, 0, 0.25);
+  background: #3C393D;
+  position: relative;
+  margin-bottom: 130px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 11px 50.2px 17px 50px;
+  width: 1366px;
+  box-sizing: border-box;
+}
+/* footer */
+footer{
+  background: #3C393D;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+.social-links{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.social-links a{
+  border: 2px solid #fff;
+  color: #fff;
+  display: block;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  text-decoration: none;
+  margin: 0 0.3rem;
+  transition: all 0.5s ease;
+}
+.social-links a:hover{
+  background: #fff;
+  color:#2b2b2b;
+}
+footer span{
+  display: block;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+}
+@media screen and (max-width:768px) {
+  .desktop .company-name {
+    font-size: 30px;
+  }
+  .desktop .my-pic {
+    margin-right: 255px;
+    width: 211px;
+    height: 434px;
+  }
+  .desktop .nav-bar a{
+    font-size: 14px;
+    margin-top: -12px;
+  }
+  .desktop .heading {
+    font-size: 55px;
+  }
+  .desktop .main-heading {
+    font-size: 40px;
+  }
+  .desktop .main-heading span{
+    font-size: 55px;
+    white-space: nowrap;
+  }
+  .desktop .logo-av {
+    width: 73.3px;
+    height: 42px;
+  }
+  .desktop .container-9, .container, .container-3, .container-12, .container-14, .container-8 {
+    width: 200px;
+  }
+  .desktop .container-23 {
+    column-gap: 56px;
+  }
+  .desktop .container-20 {
+    column-gap: 56px;
+  }
+  .contact-us {
+    padding: 20px 63.5px;
+  }
+  .contact-us .form-row {
+    padding-left: 0;
+    gap: 65px;
+  }
+  .contact-us .form-row-1 {
+    gap: 80px;
+  }
+  .contact-us input[placeholder] {
+    width: 224.89px;
+    font-size: 20px;
+    height: 46px;
+    max-width: 100%;
+  }
+  .contact-us input[id=message] {
+    width: 577.41px;
+    font-size: 20px;
+    height: 130px;
+  }
+  .contact-us label {
+    width: 164px;
+    height: 23px;
+  }
+  .description {
+    padding-left: 80px;
+    font-size: 20px;
+    width: 47%
+  }
+  .button1, .button2 {
+    font-size: 20px;
+    margin: 20px;
+    width: 150px;
+    height: 55px;
+  }
+  .button-container {
+    display: flex;
+    position: absolute;
+    margin-top: 550px;
+    width: 85%;
+    gap: 20px;
+  }
+  .desktop .web-development-1, .designing, .programming{
+    text-align: center;
+  }
+  .desktop .container-12 {
+    padding: 0 8.5px 0 8.5px;
+  }
+  .desktop .container-25 {
+    padding: 11px 20px 17px 20px;
+    gap: 120px;
+  }
+  .desktop .web-development {
+    margin: 24px 0;
+  }
+  .desktop .programming-pic{
+    height: 115.04px;
+    margin-top: 20px;
+  }
+  .desktop .designing-pic {
+    padding-bottom: 0;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width:320px) {
+  .desktop .container-name {            
+    font-size: 48px;
+  }
+  .desktop .logo-av {
+    max-width: 42px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  .desktop .my-pic {
+    margin-right: 525px;
+    width: 96px;
+    height: 306px;
+  }
+  .desktop .my-pic, .desktop .container-23, .desktop .container-20 {
+    margin-bottom: 100px;
+  }
+  .description {
+    padding-left: 250px;
+    padding-top: 450px;
+    font-size: 13px;
+    width: 47%
+  }
+  .desktop .heading {
+    font-size: 30px;
+  }
+  .desktop .main-heading {
+    padding-right: 100px;
+    padding-top: 200px;
+    font-size: 22px;
+  }
+  .desktop .main-heading span {
+    font-size: 40px;
+    white-space: wrap;
+  }
+  .button1, .button2 {
+    font-size: 10px;
+    margin: 20px;
+    width: 65px;
+    height: 25px;
+  }
+  .desktop .container-25 {
+    display: block;
+  }
+  .button-container{
+    margin-top: 590px;
+    width: 100%;
+    gap: 10px;
+  }
+  .button1, .button2 {
+    font-size: 10px;
+    margin: 20px;
+    max-width: 65px;
+    height: 25px;
+  }
+  .desktop .container-9, .container, .container-3, .container-12, .container-14, .container-8 {
+    width: 100%;
+  }
+  .desktop .container-23, .desktop .container-20 {
+    flex-direction: column;
+    width: 280px;
+    gap: 20px;
+  }
+  .desktop .programming-pic{
+    height: 165.04px;
+  }
+  .contact-us {
+    margin: 0 5px 30px 5px;
+    padding: 20px 20px;
+  }
+  .contact-us label {
+    font-size: 15px;
+    padding-right: 31px;
+  }
+  .contact-us input[placeholder] {
+    width: 170px;
+    height: 30px;
+    max-width: 100%;
+    font-size: 15px;
+  }
+  .contact-us input[id=message] {
+    width: 267.02px;
+    font-size: 15px;
+    height: 100px;
+  }
+  .desktop .containers {
+    margin-bottom: 0px;
+  }
+  .contact-us .form-row, .contact-us .form-row-1 {
+    flex-direction: column;
+    padding: 0px 21px 20px 0px;
+    gap: 20px;
+  }
+  .contact-us .form-row-1 {
+    padding-bottom: 9px;
+  }
+  .desktop .button {
+    font-size: 10px;
+  padding: 8px 8px 6px 10px;
+  }
+}
